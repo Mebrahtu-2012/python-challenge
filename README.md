@@ -1,21 +1,32 @@
-Module 3 Challenge
+# Python Challenge: Financial Analysis and Election Polling
 
-The task for this challenge is to write a Python script that analyzes the record of a financial company from the financial dataset given. The task is: 
-•	The total number of months included in the dataset
-•	The net total amount of "Profit/Losses" over the entire period
-•	The changes in "Profit/Losses" over the entire period, and then the average of those changes
-•	The greatest increase in profits (date and amount) over the entire period
-•	The greatest decrease in profits (date and amount) over the entire period
+## Introduction
+This project showcases Python scripting for analyzing financial records and election polling data. The scripts, PyBank and PyPoll, automate the analysis process, providing insights into financial performance and election results.
 
-The second half of the challenge is to modernize a rural town vote-counting process. The task for this process was to: 
-•	The total number of votes cast
-•	A complete list of candidates who received votes
-•	The percentage of votes each candidate won
-•	The total number of votes each candidate won
-•	The winner of the election based on popular vote
-The outcome for each script was printed to the terminal and exported to a text file. I worked with a tutor to calculate the percentage of votes for each candidate. I received help from AskBCS Learning Assistant to calculate the change for profit/loss with the average change. I also used the following sites to determine some of the formulas: 
-https://www.w3schools.com/python/ref_func_sum.asp
-https://www.pythontutorial.net/python-basics/python-write-text-file/
-https://www.w3resource.com/python-exercises/dictionary/python-data-type-dictionary-exercise-80.php
+## Project Structure
+The project consists of two main components:
 
+- **PyBank**:
+  - Analyzes financial records to calculate various metrics, including total months, net profit/loss, average change, and greatest profit/loss.
+- **PyPoll**:
+  - Analyzes election polling data to determine total votes cast, candidates' performance, and the winner based on popular vote.
+
+## Features
+- **Automated Analysis**: Replace manual Excel-based analysis with Python scripts for faster and more accurate results.
+- **Modular Design**: Each script is modularized for easy maintenance and scalability.
+- **Data Handling**: Utilizes Python's built-in modules like `csv` to handle large datasets efficiently.
+- **Export Results**: Outputs analysis results to both the terminal and text files for easy sharing and reference.
+
+## Usage
+1. Clone this repository to your local machine.
+2. Navigate to the respective folder for PyBank or PyPoll.
+3. Ensure the required CSV files are located in the `Resources` folder.
+4. Run the `main.py` script.
+5. View the analysis results in the terminal and the generated text file in the `Analysis` folder.
+
+## References
+- **Python Documentation**: Utilized Python's official documentation for understanding and implementing built-in functions and modules.
+- **w3schools**: Referenced for understanding Python's `sum()` function.
+- **Python Tutorial**: Used for guidance on writing text files in Python.
+- **w3resource**: Referred to for dictionary manipulation.
 
